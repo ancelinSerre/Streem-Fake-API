@@ -48,7 +48,7 @@ docker build -t streem-fake-api:1.0.0 .
 Start a new container for the API:
 
 ```bash
-docker run -d --name streem-container -p 8000:8000 streem-api:1.0.0
+docker run -d --name streem-container -p 8000:8000 streem-fake-api:1.0.0
 ```
 
 Access Swagger and discover the API:
